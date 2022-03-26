@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load static %}
+
+<header class="masthead bg-primary text-white text-center">
+  <div class="container d-flex align-items-center flex-column">
+      <!-- Masthead Avatar Image-->
+      <img class="masthead-avatar mb-5 profile" src="{% static 'assets/img/check-circle.gif' %}" alt="..." />
+      <!-- Masthead Heading-->
+      <h1 class="masthead-heading text-uppercase mb-0"></h1>
+      <!-- Masthead Subheading-->
+      <p class="masthead-subheading font-weight-light mb-0">Your Form has been sent Sucessfully!</p>
+  </div>
+</header>
+
+{% endblock content %}
+
+
