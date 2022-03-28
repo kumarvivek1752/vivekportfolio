@@ -1,1 +1,1 @@
-web:gunicorn vivekportfolio.wsgi.py
+web: gunicorn vivekportfolio.wsgi.py
